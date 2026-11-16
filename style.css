@@ -1,0 +1,439 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #101820;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: #172b36;
+    padding: 25px;
+}
+
+header h1 {
+    color: #00e676;
+}
+
+nav {
+    background: #203642;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+.news {
+    background: #203642;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 12px;
+}
+
+footer {
+    background: #172b36;
+    padding: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #071522;
+    color: white;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+}
+
+header {
+    background: #0d2638;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #00e676;
+}
+
+header h1 {
+    color: #00e676;
+    font-size: 35px;
+}
+
+nav {
+    background: #12364b;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00e676;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.news {
+    background: #12364b;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 750px;
+    border-radius: 15px;
+    border-right: 4px solid #00e676;
+}
+
+footer {
+    background: #0d2638;
+    padding: 20px;
+    text-align: center;
+}
+
+.matches {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.match {
+    background: #12364b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border-right: 4px solid #00e676;
+}
+
+.score {
+    color: #00e676;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.matches {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.match {
+    background: #172b3f;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border-right: 5px solid #00e676;
+    transition: 0.3s;
+}
+
+.match:hover {
+    transform: scale(1.03);
+    background: #203d56;
+}
+
+.league {
+    color: #00e676;
+    font-weight: bold;
+}
+
+.score {
+    color: #00e676;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.status {
+    color: #cccccc;
+}
+
+/* بطاقات المباريات */
+.match-card {
+    background: linear-gradient(135deg, #123b5c, #087c9c);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 750px;
+    border-radius: 18px;
+    border-right: 5px solid #00e676;
+    box-shadow: 0 5px 15px #0005;
+    transition: 0.3s;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+}
+
+.league {
+    color: #00e676;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.team {
+    text-align: center;
+    flex: 1;
+}
+
+.team img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.team h3 {
+    font-size: 15px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.result strong {
+    color: #00e676;
+    font-size: 30px;
+}
+
+.result span {
+    font-size: 12px;
+    color: #ddd;
+}
+
+/* قسم اللاعبين */
+.players {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 750px;
+    margin: 25px auto;
+}
+
+.player-card {
+    background: #172b3f;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: 4px solid #00e676;
+    transition: 0.3s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.player-card h3 {
+    color: #00e676;
+}
+
+.player-card p {
+    color: white;
+}
+
+.matches {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.match {
+  background: #123b64;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 15px;
+  border-right: 5px solid #00e676;
+}
+
+.team {
+  display: inline-block;
+  width: 30%;
+}
+
+.team img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.result {
+  margin: 20px;
+  color: #00e676;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 25px;
+}
+
+.players img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00e676;
+}
+
+.sports-section {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.match-card {
+    background: #123b64;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+    border-radius: 15px;
+}
+
+.team {
+    display: inline-block;
+    margin: 15px;
+}
+
+.team img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.result {
+    display: inline-block;
+    color: #00e676;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.player-card {
+    background: #123b64;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.player-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.player-card h3 {
+    color: #00e676;
+}
+
+@media (max-width: 500px) {
+    .players {
+        grid-template-columns: 1fr;
+    }
+}
+.sports-section {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.match-card {
+    background: #123b64;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+    border-radius: 15px;
+}
+
+.team {
+    display: inline-block;
+    margin: 15px;
+}
+
+.team img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.result {
+    display: inline-block;
+    color: #00e676;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.player-card {
+    background: #123b64;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.player-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.player-card h3 {
+    color: #00e676;
+}
+
+@media (max-width: 500px) {
+    .players {
+        grid-template-columns: 1fr;
+    }
+}
+
